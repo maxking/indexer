@@ -9,4 +9,4 @@ file to the directory it belongs to.
 
 Usage
 ===
-    `python indexer.py DIR`
+`python indexer.py DIR`

@@ -9,7 +9,6 @@
 
 import os
 import sys
-import glob
 import shutil
 
 dir = sys.argv[1]
@@ -29,7 +28,7 @@ for type in types:
         os.mkdir(dir + '/' + type)
     except OSError:
         pass
-    
+
 for file in os.listdir(dir):
     if '.' in file:
         extension = file.split('.')[-1]
